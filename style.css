@@ -291,3 +291,96 @@ main {
 }
 
 
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+    gap: 5px;
+    width: 100%;
+}
+
+.logo-sobre {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+    padding: 15px;
+    width: 60%;
+    gap: 3px; 
+    border: 1px solid gray;   
+}
+
+.logo-sobre h1 {
+    border: 1px solid gray;
+    background-color: white;
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.logo-sobre p {
+    border: 1px solid gray;
+    background-color: white;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+    padding: 15px;
+    width: 25%;
+    gap: 3px; 
+    border: 1px solid gray;
+}
+
+.links h1 {
+    border: 1px solid gray;
+    background-color: white;
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.links p {
+    border: 1px solid gray;
+    background-color: white;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+    padding: 15px;
+    width: 25%;
+    gap: 3px; 
+    border: 1px solid gray;
+}
+
+.redes-sociais h1 {
+    border: 1px solid gray;
+    background-color: white;
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.redes-sociais p {
+    border: 1px solid gray;
+    background-color: white;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.botoes-redes-sociais {
+    display: flex;
+    gap: 2px;
+    justify-content: right;
+
+}
