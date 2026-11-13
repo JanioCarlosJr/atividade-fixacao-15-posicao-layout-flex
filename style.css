@@ -9,7 +9,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 108vh;
-    width: 70%;
+    width: 50%;
+    margin: 0 auto;
     flex-direction: column;    
     padding: 20px;
     background-color: rgb(231, 231, 231);
