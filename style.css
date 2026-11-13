@@ -9,11 +9,11 @@ body {
     align-items: center;
     justify-content: center;
     height: 108vh;
-    width: 50%;
+    width: 70%;
     flex-direction: column;    
     padding: 20px;
-    background-color: rgb(238, 238, 238);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 231, 231);
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
 header {
@@ -118,6 +118,7 @@ main {
     padding-bottom: 61px;
     width: 100%;
     border: 1px solid lightslategrey;
+    text-align: center;
 }
 
 
@@ -126,7 +127,9 @@ main {
     justify-content: center; 
     background-color: white;
     border: 1px solid black;
-    padding: 15px;    
+    padding: 15px; 
+    gap: 15px;
+    width: 100%;   
 }
 
 .secao-main-cards {
@@ -136,7 +139,8 @@ main {
     background-color: rgb(238, 237, 237);
     border: 1px solid gray;
     padding: 20px;
-    gap: 15px;    
+    gap: 15px;
+    width: 80%;    
 }
 
 .titulo-secao-cards {
@@ -149,8 +153,8 @@ main {
 
 .cards-em-destaque {
     display: flex;
-    align-items: center;    
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
     gap: 10px;
 }
 
@@ -161,13 +165,14 @@ main {
     gap: 60px;
     background-color: white;
     padding: 15px;
-    border: 1px solid lightgray;    
+    border: 1px solid lightgray;
+    width: 33%;    
 }
 
-    .card-conteudo {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
+.card-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .card span {      
@@ -198,5 +203,48 @@ main {
     background-color: rgb(196, 195, 195);
     padding: 5px;    
     border: 1px solid gray;
-
 }
+
+
+.barra-lateral {
+    display: flex;
+    align-items: left;
+    justify-content: start;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid gray;
+    width: 20%;
+}
+
+.titulo-barra-lateral {
+    background-color: lightgrey;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 5px;
+    border: 1px solid rgb(168, 167, 167);
+}
+
+.widget-1 {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid lightgray;
+    color: gray;
+}
+
+.widget-2 {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid lightgray;
+    color: gray;
+}
+
+.widget-3 {
+    background-color: white;
+    padding: 5px;
+    padding-bottom: 130px;
+    border: 1px solid lightgray;
+    color: gray;
+}
+
